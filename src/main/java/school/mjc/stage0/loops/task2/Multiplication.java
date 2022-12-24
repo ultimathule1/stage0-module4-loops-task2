@@ -8,7 +8,7 @@ public class Multiplication {
             while(i <= end) {
                 System.out.println(multiplyByAndToInclusive * i++);
             }
-        } else {
+        } else if (multiplyByAndToInclusive > 0) {
             while(i <= multiplyByAndToInclusive) {
                 System.out.println(multiplyByAndToInclusive * i++);
             }
